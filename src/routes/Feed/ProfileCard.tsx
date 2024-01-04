@@ -66,10 +66,12 @@ const StyledWrapper = styled.div`
         font-weight: 700;
       }
       .role {
-        margin-bottom: 1rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
         color: ${({ theme }) => theme.colors.gray11};
+      }
+      .role:not(:last-child) {
+        margin-bottom: 1rem;
       }
       .bio {
         margin-bottom: 0.5rem;

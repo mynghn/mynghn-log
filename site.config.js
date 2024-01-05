@@ -12,7 +12,7 @@ const CONFIG = {
   },
   // blog setting (required)
   blog: {
-    title: "mynghn.log",
+    title: "mynghn.blog",
     description: "",
   },
 
